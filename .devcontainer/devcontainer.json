@@ -7,7 +7,7 @@
       "customizations": {
     "vscode": {
       "extensions": [
-        "huachao.rest-client"
+        "humao.rest-client"
       ]
     }
   }
