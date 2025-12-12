@@ -10,6 +10,10 @@ npm start
 cd client
 npm start
 
+or to get OAuth example, better atm to use the REST client extension with test.http and
+the requests to authenticate to generate a token, and then the request to access a secure
+resource restricted to those that have the token.
+
 TODO 
 1. Get a browser client working that calls the server. I can't figure out how to get the browser to access the server. The thing is... I have managed to get this working before.
 
@@ -18,4 +22,4 @@ or npm https-server -c-1 -p 3000 for a simplifed browser embedded in vscode
 
 or use the VSCode 'Live Serve' extension.
 
-2. Get OAuth going for a flow that submits credentials to generate a bearer token to access a protected resource.
+2. Get OAuth going from the client.js script.
