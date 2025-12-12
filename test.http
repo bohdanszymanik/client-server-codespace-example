@@ -2,3 +2,10 @@
 
 http://localhost:5000/api
 
+###
+curl -X POST http://localhost:5000/oauth/token \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "grant_type=password&username=test&password=secret&client_id=client1&client_secret=clientSecret"
+
+###
+curl -H "Authorization: Bearer 3aa007ae5cc78219e47bb356d37cca7c23d9330e" http://localhost:5000/secure
