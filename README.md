@@ -7,6 +7,13 @@ cd ./server
 npm start
 
 ## Executing the client
+cd client
+npm start
+
+TODO:
+Get a browser client working that calls the server. I can't figure out how to get the browser to access the server. The thing is... I have managed to get this working before.
+
 npx https-server -p 3000
+or npm https-server -c-1 -p 3000 for a simplifed browser embedded in vscode
 
 or use the VSCode 'Live Serve' extension.
