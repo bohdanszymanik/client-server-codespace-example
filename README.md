@@ -20,6 +20,6 @@ TODO
 npx https-server -p 3000
 or npm https-server -c-1 -p 3000 for a simplifed browser embedded in vscode
 
-or use the VSCode 'Live Serve' extension.
+or use the VSCode 'Live Server' extension.
 
 2. Get OAuth going from the client.js script.
